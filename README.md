@@ -13,6 +13,11 @@ A clean, functional Android calculator built with **Java** and **XML**. This pro
 * **Platform**: Android Studio (Native)
 * **UI**: XML Layouts
 * **Architecture**: MVC (Model-View-Controller) pattern
-
+  
+## 📝 How to Use
+1. Clone the repository: `git clone https://github.com/SayanMz/Calculator-Java.git`
+2. Open the project in **Android Studio**.
+3. Sync with **Gradle** and run on an emulator (Pixel 9a API 34 recommended).
+   
 ## 📄 License
 This project is licensed under the **MIT License**.
