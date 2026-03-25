@@ -1,4 +1,4 @@
-A simple java project built on Android Studio during 2022. This project was built from scratch. Learnt to play with buttons and building logic for those calculations. It was a lot of hard work and I hope you would appreciate it.
+A simple java project built on Android Studio during 2022. This project was built from scratch. Learnt to play with buttons and building logic for those calculations. It was a lot of hard work and learning, I hope you love this app.
 # Java Calculator (Android Native)
 A clean, functional Android calculator built with **Java** and **XML**. This project was developed as part of my **BCA** coursework to demonstrate core Android development concepts, including UI layouts and event-driven programming.
 
