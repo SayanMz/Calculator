@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455A64"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/inputBox">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <TextView
+        style="@style/inputViews"
+        android:id="@+id/display" />
+    </ScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                style="@style/inputViews"
+                android:id="@+id/display1" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_linear_layouts"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/clear"
+                style="@style/clearBox"
+                android:text="Clear"
+                android:onClick="Clear"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mod"
+                style="@style/modularBox"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/div"
+                style="@style/arithmetic_operators"
+                android:text="/" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_linear_layouts">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/arithmetic_numbers"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/arithmetic_numbers"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/arithmetic_numbers"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/mul"
+            style="@style/arithmetic_operators"
+            android:text="*" />
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_linear_layouts">>
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/arithmetic_numbers"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/arithmetic_numbers"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/arithmetic_numbers"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/sub"
+            style="@style/arithmetic_operators"
+            android:text="-" />
+    </LinearLayout>
+    <LinearLayout style="@style/horizontal_linear_layouts">>
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/arithmetic_numbers"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/arithmetic_numbers"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/arithmetic_numbers"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/arithmetic_operators"
+            android:text="+" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/horizontal_linear_layouts"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn0"
+                style="@style/button0"
+                android:text="0" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/deci"
+                style="@style/arithmetic_numbers"
+                android:text="."
+                android:textSize="50sp" />
+
+            <Button
+                android:id="@+id/equal"
+                style="@style/equalBox"
+                android:text="="
+                android:onClick="Equal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="inputBox">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name= "android:layout_marginRight">10dp</item>
+    <item name="android:layout_marginTop">25dp</item>
+    <item name="android:background">@drawable/round_inputbox</item>
+    <item name="android:orientation">vertical</item>
+</style>
+    <style name="inputViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:text">0</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    <item name="android:paddingRight">25sp</item>
+    <item name = "android:gravity">right</item>
+    </style>
+
+    <style name="clearBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name = "android:gravity">center</item>
+        <item name="android:background">@drawable/round_clearbox</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="modularBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name = "android:gravity">center</item>
+        <item name="android:background">@drawable/round_modularbox</item>
+    </style>
+
+    <style name="arithmetic_operators">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name = "android:gravity">center</item>
+        <item name="android:background">@drawable/round_arithmetic_operators</item>
+    </style>
+
+    <style name="equalBox" parent="modularBox">
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+
+    <style name="arithmetic_numbers">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name = "android:gravity">center</item>
+        <item name="android:background">@drawable/round_arithmetic_numbers</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="button0" parent="arithmetic_numbers">
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+
+    <style name="horizontal_linear_layouts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+</resources>
