@@ -1,0 +1,1 @@
+A simple java project built on Android Studio during 2022. This project was built from scratch. Learnt to play with buttons and logic building for behaind those calculations. It was a lot of hard work and I hope you would appreciate it.
